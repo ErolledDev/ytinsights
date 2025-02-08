@@ -3,6 +3,7 @@
 A powerful tool that combines YouTube analytics with AI-powered insights to help content creators understand and improve their channel performance.
 
 ## Features
+![Mr beast Analytics](https://raw.githubusercontent.com/ErolledDev/ytinsights/refs/heads/main/mrbeast.png)
 
 - Comprehensive channel metrics
 - AI-generated analysis reports
@@ -25,6 +26,7 @@ A powerful tool that combines YouTube analytics with AI-powered insights to help
 
 2. Enter your channel URL and API keys
 3. Get instant insights and analysis
+![Ai Report](https://raw.githubusercontent.com/ErolledDev/ytinsights/refs/heads/main/ai%20report.png)
 
 ## Development
 
