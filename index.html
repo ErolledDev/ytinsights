@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ErolledDev - YouTube Channel Analytics & AI Insights</title>
+    <meta name="description" content="Get comprehensive YouTube channel analytics and AI-powered insights. Analyze performance, growth potential, and content strategy with our advanced tools." />
+    <meta name="keywords" content="YouTube analytics, channel analysis, AI insights, content strategy, YouTube metrics, channel growth" />
+    <meta name="author" content="ErolledDev" />
+    
+    <!-- PWA Support -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ef4444" />
+    <link rel="apple-touch-icon" href="/icon-192x192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://erolleddev.com/" />
+    <meta property="og:title" content="ErolledDev - YouTube Channel Analytics & AI Insights" />
+    <meta property="og:description" content="Get comprehensive YouTube channel analytics and AI-powered insights. Analyze performance, growth potential, and content strategy with our advanced tools." />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://erolleddev.com/" />
+    <meta property="twitter:title" content="ErolledDev - YouTube Channel Analytics & AI Insights" />
+    <meta property="twitter:description" content="Get comprehensive YouTube channel analytics and AI-powered insights. Analyze performance, growth potential, and content strategy with our advanced tools." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+              console.log('ServiceWorker registration successful');
+            })
+            .catch(err => {
+              console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
